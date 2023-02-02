@@ -2,4 +2,36 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* general */
+body, main {
+  font-family: 'Open Sans', sans-serif;
+  color: #828282;
+}
+
+/* is same */
+h1, 
+strong,
+a {
+  color: #3F3D56;
+}
+
+span, 
+a {
+  font-weight: 700;
+}
+
+/* specific */
+h1 {
+  font-family: 'Dosis', sans-serif;
+  line-height: 40px;
+}
+h1 span {
+  color: #EE24FF;
+}
+
+p {
+  justify-content: center;
 }
