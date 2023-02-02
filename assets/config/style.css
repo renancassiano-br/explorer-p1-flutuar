@@ -6,9 +6,16 @@
 }
 
 /* general */
+/* 
+body{
+  margin: auto;
+} */
+
 body, main {
   font-family: 'Open Sans', sans-serif;
   color: #828282;
+  margin: auto;
+  
 }
 
 /* is same */
@@ -34,4 +41,17 @@ h1 span {
 
 p {
   justify-content: center;
+}
+
+header,
+main, 
+#footer-links {
+  max-width: 626px;
+  margin: auto;
+  text-align: center;
+}
+
+#footer-wave {
+  display: flex;
+  flex-direction: column;
 }
