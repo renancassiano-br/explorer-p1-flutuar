@@ -37,11 +37,7 @@ O <strong>Explorer | Projeto 1 | Flutuar</strong> é um site descritivo com link
 
 ## 🔖 Layout
 
-<<<<<<< HEAD
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/waisYRoNzeBgIxOyrz0b2R/Projeto01-Extra/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-=======
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
->>>>>>> 93d5e4c4f537a4823c4457aae672469e2362cd7e
 
 ## :memo: Licença
 
