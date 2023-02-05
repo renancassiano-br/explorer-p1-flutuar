@@ -11,14 +11,23 @@ body{
   margin: auto;
 } */
 
-body, main {
+body {
+  max-width: 1024px;
   font-family: 'Open Sans', sans-serif;
   color: #828282;
   margin: auto;
-  
 }
 
 /* is same */
+header,
+main, 
+#footer-line,
+#footer-links {
+  max-width: 626px;
+  margin: auto;
+  text-align: center;
+}
+
 h1, 
 strong,
 a {
@@ -31,27 +40,39 @@ a {
 }
 
 /* specific */
+main header img {
+  margin: 40px auto 32px;
+}
+
 h1 {
   font-family: 'Dosis', sans-serif;
-  line-height: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 h1 span {
   color: #EE24FF;
 }
 
 p {
-  justify-content: center;
+  /* text-align: center; */
+  padding: 0 16px;
+  /* justify-content: center; */
 }
 
-header,
-main, 
-#footer-links {
-  max-width: 626px;
-  margin: auto;
-  text-align: center;
+footer {
+  margin-top: 48px;
 }
 
+#footer-line {
+  width: 391px;
+  border: 1px solid #ECEFF2;
+  margin-bottom: 16px;
+}
 #footer-wave {
+  /* position: fixed; */
+  bottom: 0;
   display: flex;
   flex-direction: column;
+  margin: 32px auto 0;
 }
