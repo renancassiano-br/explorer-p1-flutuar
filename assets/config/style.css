@@ -63,12 +63,16 @@ p {
 footer {
   margin-top: 48px;
 }
+footer a + a{
+  margin-left: 42px;
+}
 
 #footer-line {
   width: 391px;
   border: 1px solid #ECEFF2;
   margin-bottom: 16px;
 }
+
 #footer-wave {
   /* position: fixed; */
   bottom: 0;
